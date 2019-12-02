@@ -2,3 +2,6 @@
 <input type="text" #myInput />
 <button type="button" (click)="logMessage(myInput)" >ClickMe</button>
 {{greeting}}
+<ul *ngFor="let employee of employees">
+    <li>{{employee.userId}} - {{employee.title}}  - {{employee.body}}</li>
+</ul>
