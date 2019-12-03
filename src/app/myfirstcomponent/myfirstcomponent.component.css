@@ -4,3 +4,6 @@ button{
 input{
     border:solid 1px green;
 }
+textarea{
+    background-color: red;;
+}
