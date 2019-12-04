@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+@ViewChild('right_content') right_content; 
+
 export class AppComponent {
   title = 'myFirstApp';
+  
 }

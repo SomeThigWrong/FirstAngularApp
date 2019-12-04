@@ -1,21 +1,49 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<app-myfirstcomponent></app-myfirstcomponent>
-
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
+<div class="layout-content">
+    <div id="left-menu" #left_menu>
+        <div>
+            <div class="menu-item menu-logo">
+                <div class="logo-icon"></div>
+                <div class="menu-category logo-category">BCuong</div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-icon dashboard-icon"></div>
+                <div class="menu-category">Trang chủ</div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-icon stock-icon"></div>
+                <div class="menu-category">Quản lý kho</div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-icon product-icon"></div>
+                <div class="menu-category">Quản lý sản phẩm</div>
+            </div>
+           
+            <div class="menu-item">
+                <div class="menu-icon dashboard-icon"></div>
+                <div class="menu-category">Trang chủ</div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-icon stock-icon"></div>
+                <div class="menu-category">Quản lý kho</div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-icon product-icon"></div>
+                <div class="menu-category">Quản lý sản phẩm</div>
+            </div>
+        </div>
+    </div>
 
+
+    <div id="right-content" #right_content>
+        <div id="header">
+            <div class="colapse-icon"></div>
+        </div>
+        <div id="main-content">
+                <app-myfirstcomponent></app-myfirstcomponent>
+        </div>
+    </div>
+    <br style="clear:both;" />
+</div>
 <router-outlet></router-outlet>
