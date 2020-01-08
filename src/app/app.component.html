@@ -6,7 +6,15 @@
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<app-myfirstcomponent></app-myfirstcomponent>
+<div style="text-align: center;">
+<h1>Routing and Navigation</h1>
+</div>
+<nav>
+    <a routerLink="/department" routerLinkActive="active">Department</a>
+    <a routerLink="/employee" routerLinkActive="active">Employee</a>
+</nav>
+<router-outlet></router-outlet>
+<!-- <app-myfirstcomponent></app-myfirstcomponent> -->
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
@@ -18,4 +26,3 @@
 
 
 
-<router-outlet></router-outlet>
