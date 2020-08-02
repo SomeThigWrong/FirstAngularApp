@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MyfirstcomponentComponent } from './myfirstcomponent/myfirstcomponent.component';
 import { EmployeeService } from './employee.service';
 import { HttpClientModule } from '@angular/common/http';
+import { TestComponent } from './test/test.component';
 
 
 
@@ -13,7 +14,8 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     AppComponent,
     MyfirstcomponentComponent,
-    routingComponents
+    routingComponents,
+    TestComponent
   ],
   imports: [
     BrowserModule,
